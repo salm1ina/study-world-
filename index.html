@@ -1,11 +1,38 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coba guys</title>
+    <title>Biodata Diri Saya</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Belajar JS Dasar guys</h1>
-    <script src="main.js"></script>
+    <div class="container">
+        <header>
+            <h1>Biodata Diri Saya</h1>
+            <img id="profil-gambar" src="https://via.placeholder.com/150" alt="Foto Profil">
+            <button id="ubah-gambar-btn">Ubah Gambar</button>
+        </header>
+
+        <section class="info-card">
+            <h2>Informasi Pribadi</h2>
+            <p><strong>Nama:</strong> <span id="nama">John Doe</span></p>
+            <p><strong>Usia:</strong> <span id="usia">30 tahun</span></p>
+            <p><strong>Pekerjaan:</strong> <span id="pekerjaan">Web Developer</span></p>
+            <p><strong>Email:</strong> <span id="email">john.doe@example.com</span></p>
+            <button id="edit-info-btn">Edit Info</button>
+        </section>
+
+        <section class="info-card">
+            <h2>Tentang Saya</h2>
+            <p id="tentang-saya-text">Saya adalah seorang pengembang web yang passionate dengan pengalaman dalam membangun aplikasi web yang responsif dan user-friendly. Saya suka belajar hal baru dan tantangan coding.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 John Doe. Semua Hak Cipta Dilindungi.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
